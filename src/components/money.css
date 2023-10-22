@@ -1,0 +1,10 @@
+.middleone{
+    display:flex;
+    flex-direction: row;
+}
+.dusti{
+    height:20px;
+}
+button{
+    border:none;
+}
