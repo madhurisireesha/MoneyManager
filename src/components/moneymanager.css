@@ -1,0 +1,29 @@
+.container2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mimage{
+    height:15vh;
+}
+.middleone{
+    background-color: rgb(173, 231, 107);
+    display: flex;
+    flex-direction: row;
+    padding:15px;
+    border-radius: 10px;
+}
+.middletwo{
+    background-color: rgb(154, 252, 252);
+    display: flex;
+    flex-direction: row;
+    padding:15px;
+    border-radius: 10px;
+}
+.middlethree{
+    background-color: rgb(192, 142, 239);
+    display: flex;
+    flex-direction: row;
+    padding:15px;
+    border-radius: 10px;
+}
