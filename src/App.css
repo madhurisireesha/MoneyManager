@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+.entirecontainer{
+    margin:30px;
+    
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.top{background-image: url("https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png");
+    padding:15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.formcontainer{
+    display: flex;
+    flex-direction: column;
+    border:solid grey 2px;
+    padding:15px;
+    border-radius:5px;
+    
 }
+/* .head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+.bottom{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+p{
+    margin-right: 15px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addbutton{
+    background-color: rgb(60, 60, 236);
+    color:white;
+    font-weight:bold;
+    border-radius: 5px;
+    width:30%;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+.bottomsecond{
+    border:solid grey 2px;
+    border-radius:5px;
+    padding:20px;
 }
